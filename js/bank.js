@@ -27,7 +27,7 @@ export function initBank(root = document) {
       sec.hidden = secShown === 0;
       shown += secShown;
     }
-    const scope = week === "all" ? "" : ` in Week ${week}`;
+    const scope = week === "all" ? "" : week === "vercel" ? " in NPTEL Vercel questions" : ` in Week ${week}`;
     count.textContent = term
       ? `${shown} ${shown === 1 ? "question matches" : "questions match"} “${search.value.trim()}”${scope}`
       : `${shown} questions${scope}`;

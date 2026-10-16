@@ -1,0 +1,1685 @@
+{
+ "source": "NPTEL Vercel practice test (119 questions; answers from the answer-review screenshot)",
+ "questions": [
+  {
+   "id": "p1",
+   "n": 1,
+   "q": "What is Psychology?",
+   "options": [
+    "A Science subject",
+    "Is objective perception",
+    "An art of living",
+    "A thought process",
+    "A study of cognitive processes & behavior"
+   ],
+   "answer": 4,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p2",
+   "n": 2,
+   "q": "A broad field of study that explores a variety of questions about thoughts, feelings and actions is ___",
+   "options": [
+    "Society",
+    "Globalization",
+    "Psychology",
+    "Social Science",
+    "Human Development"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p3",
+   "n": 3,
+   "q": "A systematic assessment that provides information on political views, consumer buying habits and many other topics is called___",
+   "options": [
+    "Standardized test",
+    "Projects",
+    "Experiments",
+    "Survey",
+    "Psychological tests"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p4",
+   "n": 4,
+   "q": "The word Psyche means ___",
+   "options": [
+    "Body or physique",
+    "Mind or soul",
+    "Science & spirituality",
+    "Mental health",
+    "Neuropsychology"
+   ],
+   "answer": 1,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p5",
+   "n": 5,
+   "q": "Who established psychology laboratory in Germany?",
+   "options": [
+    "B.F. Skinner",
+    "J. Thorndike",
+    "Sigmund Freud",
+    "David Kolb",
+    "Wilhelm Wundt"
+   ],
+   "answer": 4,
+   "picked": 2,
+   "status": "wrong"
+  },
+  {
+   "id": "p6",
+   "n": 6,
+   "q": "To help people to function effectively and fulfill their own unique potential\" is the aim of___",
+   "options": [
+    "Humanistic psychology",
+    "Social Psychiatry",
+    "Philosophy",
+    "Development studies",
+    "Sustainable development"
+   ],
+   "answer": 0,
+   "picked": 3,
+   "status": "wrong"
+  },
+  {
+   "id": "p7",
+   "n": 7,
+   "q": "Behaviorists use a learning process to change abnormal behavior is called___",
+   "options": [
+    "Rationalism",
+    "Experiential intervention",
+    "Gestalt mechanism",
+    "Hypotheses verification",
+    "Conditioning"
+   ],
+   "answer": 4,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p8",
+   "n": 8,
+   "q": "The study of changes in behavior during life time is called ___.",
+   "options": [
+    "Behaviorism",
+    "Individual difference",
+    "Developmental Psychology",
+    "Maturational theory",
+    "Genetics or Heredity"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p9",
+   "n": 9,
+   "q": "The study of differences and similarities in the behavior of animals of different species is called ___.",
+   "options": [
+    "Sociology",
+    "Social work",
+    "Rehabilitation studies",
+    "Comparative Psychology",
+    "Cultural Psychology"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p10",
+   "n": 10,
+   "q": "Which of the following is true regarding learning in psychology?",
+   "options": [
+    "The psychology of learning focuses on how people learn and how they interact with the environments in which they have not learnt",
+    "Learning does not involve any changes in the organism",
+    "Learning is a relatively temporary change in behavior",
+    "none of the given"
+   ],
+   "answer": 3,
+   "picked": 0,
+   "status": "wrong"
+  },
+  {
+   "id": "p11",
+   "n": 11,
+   "q": "In order to say that learning has occurred, a/an ___ must occur during the lifetime of the organism.",
+   "options": [
+    "hidden change in behavior",
+    "small change in personality",
+    "visible change in emotions",
+    "observable change in behavior"
+   ],
+   "answer": 3,
+   "picked": 0,
+   "status": "wrong"
+  },
+  {
+   "id": "p12",
+   "n": 12,
+   "q": "Learning changes the ___ through the process of continuous interactions between the learner and the external environment.",
+   "options": [
+    "physical structure of the brain",
+    "chemical structure of neurons",
+    "physical structure of the heart",
+    "chemical structure of the spinal cord"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p13",
+   "n": 13,
+   "q": "Watson, one of the first psychologists to study learning and behavior is known for the ___.",
+   "options": [
+    "Little Albert experiment",
+    "Little John experiment",
+    "Little Robert experiment",
+    "Little Johnny experiment"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p14",
+   "n": 14,
+   "q": "Which of the following is not explored and described by the psychology of learning?",
+   "options": [
+    "principles of motivation",
+    "principles of forgetting",
+    "principles of genetic disorders",
+    "principles of memory",
+    "principles of retention"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p15",
+   "n": 15,
+   "q": "The state of ___ may be valuable at the start of a learning experience.",
+   "options": [
+    "conscious incompetence",
+    "unconscious incompetence",
+    "conscious over-competence",
+    "unconscious over-competence"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p16",
+   "n": 16,
+   "q": "___ is the decrease in the response that an organism gives to a stimulus to which it is exposed in numerous trials or occasions.",
+   "options": [
+    "Habituation",
+    "Sensitization",
+    "Forgetting",
+    "Meaningful learning"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p17",
+   "n": 17,
+   "q": "Cooperative learning is shaped by three crucial elements. Which of the following is one of them?",
+   "options": [
+    "formation of heterogeneous groups",
+    "positive interdependence",
+    "individual responsibility",
+    "all of the given"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p18",
+   "n": 18,
+   "q": "Which of the following psychologists is an important contributor to the concept of observational learning?",
+   "options": [
+    "Watson",
+    "Dewey",
+    "Bruner",
+    "Bandura"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p19",
+   "n": 19,
+   "q": "Which of the following is not considered a pioneer of the behaviorism school of thought in psychology?",
+   "options": [
+    "Watson",
+    "Skinner",
+    "Freud",
+    "Pavlov"
+   ],
+   "answer": 2,
+   "picked": 3,
+   "status": "wrong"
+  },
+  {
+   "id": "p20",
+   "n": 20,
+   "q": "___ is known as the father of modern psychology.",
+   "options": [
+    "Sigmund Freud",
+    "Wilhelm Wundt",
+    "John Watson",
+    "Lev Vygotsky"
+   ],
+   "answer": 1,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p21",
+   "n": 21,
+   "q": "Cognitivists objected to behaviorists because they felt that behaviorists ignored the important role of ___.",
+   "options": [
+    "genetics",
+    "emotions",
+    "thinking",
+    "stimulus reaction"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p22",
+   "n": 22,
+   "q": "___ is viewed as the mainstream for all research on learning designs.",
+   "options": [
+    "Psychoanalysis",
+    "Positive psychology",
+    "Cognitivism",
+    "Evolutionary psychology"
+   ],
+   "answer": 2,
+   "picked": 0,
+   "status": "wrong"
+  },
+  {
+   "id": "p23",
+   "n": 23,
+   "q": "___ is a perspective in psychology focusing on the belief that human consciousness cannot be broken down into its elements and is based on the concept of a 'whole'.",
+   "options": [
+    "Cognitivism",
+    "Behaviorism",
+    "Gestalt psychology",
+    "Positive psychology"
+   ],
+   "answer": 2,
+   "picked": 1,
+   "status": "wrong"
+  },
+  {
+   "id": "p24",
+   "n": 24,
+   "q": "Theory of multiple intelligences is given by ___.",
+   "options": [
+    "Howard Gardner",
+    "Edward C. Tolman",
+    "German Gestalt",
+    "Robert J. Sternberg"
+   ],
+   "answer": 0,
+   "picked": 3,
+   "status": "wrong"
+  },
+  {
+   "id": "p25",
+   "n": 25,
+   "q": "The general intelligence factor, also known as g, is what intelligence tests typically measure and refers only to ___ intelligence.",
+   "options": [
+    "academic",
+    "practical",
+    "linguistic",
+    "kinesthetic"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p26",
+   "n": 26,
+   "q": "Cognitive evaluation for planning, attention, simultaneous, and successive processing of individuals can be done through CAS based on PASS theory. CAS here stands for ___.",
+   "options": [
+    "Cognitive Achievement System",
+    "Cognitive Ability System",
+    "Cognitive Appraisal System",
+    "Cognitive Assessment System"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p27",
+   "n": 27,
+   "q": "BBL is a new science that shapes the learning process and is an approach that is based on the structure and function of the human brain. BBL stands for ___.",
+   "options": [
+    "Biological based learning",
+    "Brain based learning",
+    "Biological battery learning",
+    "Brain biology learning"
+   ],
+   "answer": 1,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p28",
+   "n": 28,
+   "q": "Gagne's Conditions of Learning is also known as ___ Events of Instruction.",
+   "options": [
+    "nine",
+    "five",
+    "ten",
+    "seven"
+   ],
+   "answer": 0,
+   "picked": 1,
+   "status": "wrong"
+  },
+  {
+   "id": "p29",
+   "n": 29,
+   "q": "Which of the following is not a type of constructivism?",
+   "options": [
+    "biological",
+    "cognitive",
+    "social",
+    "radical"
+   ],
+   "answer": 0,
+   "picked": 3,
+   "status": "wrong"
+  },
+  {
+   "id": "p30",
+   "n": 30,
+   "q": "Which of the following is not one of the three major processes involved in memory?",
+   "options": [
+    "encoding",
+    "retrieval",
+    "storage",
+    "imagination"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p31",
+   "n": 31,
+   "q": "___ refers to changing information into a usable form.",
+   "options": [
+    "Storage",
+    "Recall",
+    "Encoding",
+    "Recollection",
+    "Forgetting"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p32",
+   "n": 32,
+   "q": "___ refers to a range of mental processes relating to the acquisition, storage, manipulation and retrieval of information.",
+   "options": [
+    "Cognition",
+    "Construction",
+    "Encoding",
+    "Thinking"
+   ],
+   "answer": 0,
+   "picked": 3,
+   "status": "wrong"
+  },
+  {
+   "id": "p33",
+   "n": 33,
+   "q": "Which of the following is a challenge faced by people with social cognition deficits?",
+   "options": [
+    "talking too much to people",
+    "responding to well to people",
+    "difficulty in reading facial expressions",
+    "difficulty in getting good academic scores"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p34",
+   "n": 34,
+   "q": "Which of the following is not true about the assumptions underlying the Information Processing View of Learning?",
+   "options": [
+    "Information processing is analogous to computer processing",
+    "The human information processing system is interactive",
+    "There is no limit on how much information can be processed at each stage",
+    "Information is processed in steps"
+   ],
+   "answer": 2,
+   "picked": 0,
+   "status": "wrong"
+  },
+  {
+   "id": "p35",
+   "n": 35,
+   "q": "___ prevents the quick disappearance of information from short term memory",
+   "options": [
+    "Rehearsal",
+    "Encoding",
+    "Retrieval",
+    "None of the given"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p36",
+   "n": 36,
+   "q": "The Multicomponent Model of Working Memory is largely attributed to the work by ___",
+   "options": [
+    "Atkinson & Shiffrin",
+    "Baddeley",
+    "Piaget",
+    "Craik & Lockhart"
+   ],
+   "answer": 1,
+   "picked": 2,
+   "status": "wrong"
+  },
+  {
+   "id": "p37",
+   "n": 37,
+   "q": "___ memory refers to the events that can be reported from a person's life.",
+   "options": [
+    "Episodic",
+    "Semantic",
+    "Procedural",
+    "None of the given"
+   ],
+   "answer": 0,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p38",
+   "n": 38,
+   "q": "The memory capacity depends on which of the following?",
+   "options": [
+    "complexity of the synapses",
+    "spatial and temporal correlations between memories",
+    "specific way memories are retrieved",
+    "all of the given"
+   ],
+   "answer": 3,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p39",
+   "n": 39,
+   "q": "Which of the following is not one of the three measurable dimensions of cognitive load?",
+   "options": [
+    "mental effort",
+    "mental load",
+    "physical effort",
+    "performance"
+   ],
+   "answer": 2,
+   "picked": null,
+   "status": "right"
+  },
+  {
+   "id": "p40",
+   "n": 40,
+   "q": "The three main types of thinking in psychology include the following except ___.",
+   "options": [
+    "symbolic",
+    "creative",
+    "divergent",
+    "convergent"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p41",
+   "n": 41,
+   "q": "Young children engaging in imaginative play often engage in ___ thinking.",
+   "options": [
+    "creative",
+    "divergent",
+    "symbolic",
+    "convergent"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p42",
+   "n": 42,
+   "q": "Which of the following is a way in which we think?",
+   "options": [
+    "in verbal symbols",
+    "in mathematical symbols",
+    "in gestures and movements",
+    "all of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p43",
+   "n": 43,
+   "q": "People experience the ___ experience when they find the solution to a problem suddenly that had been in their mind for hours or days, late.",
+   "options": [
+    "“oh no”",
+    "“wow”",
+    "“aha”",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p44",
+   "n": 44,
+   "q": "___ knowledge refers to knowledge of terminology and specific details.",
+   "options": [
+    "factual",
+    "conceptual",
+    "procedural",
+    "metacognitive"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p45",
+   "n": 45,
+   "q": "Which of the following is not true about metacognition?",
+   "options": [
+    "allows people to be dependent on others for their learning",
+    "often referred to as “thinking about thinking”",
+    "is crucial for efficient independent learning because it fosters self-reflection",
+    "is a regulatory system that helps a person understand and control his or her own cognitive performance"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p46",
+   "n": 46,
+   "q": "Which of the following is not an effective way to develop reflective thinking?",
+   "options": [
+    "asking questions",
+    "self-questioning",
+    "negotiated learning",
+    "avoiding reflective discussions"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p47",
+   "n": 47,
+   "q": "Which of the following is not true about creative thinking?",
+   "options": [
+    "It is the ability to consider something in a new way",
+    "It is not a skill anybody can develop",
+    "It is the process of nurturing our imagination",
+    "It is all about developing innovative solutions to problems.",
+    "It requires a compilation of analytical, problem-solving, organizational and communication skills"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p48",
+   "n": 48,
+   "q": "The ___ stage of the creative thinking process refers to the “eureka” moment.",
+   "options": [
+    "insight",
+    "incubation",
+    "evaluation",
+    "preparation",
+    "elaboration"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p49",
+   "n": 49,
+   "q": "In a concept map, two nodes connected with a labeled arrow are called a ___.",
+   "options": [
+    "preposition",
+    "nodal link",
+    "schema",
+    "proposition"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p50",
+   "n": 50,
+   "q": "Which of the following is not a causal factor for extrinsic motivation?",
+   "options": [
+    "rewards",
+    "social pressure",
+    "curiosity",
+    "financial gain",
+    "punishment"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p51",
+   "n": 51,
+   "q": "___ refers to realizing the value of developing a skill/behavior.",
+   "options": [
+    "Amotivation",
+    "Identified regulation",
+    "Introjected regulation",
+    "Motivational learning"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p52",
+   "n": 52,
+   "q": "Drive theory is a psychological concept that attempts to explain why and how people behave in the ways they do. It is given by ___.",
+   "options": [
+    "Murray",
+    "Hull",
+    "Atkinson",
+    "Zajonc"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p53",
+   "n": 53,
+   "q": "___ theory that suggests that people are motivated to take action in order to receive a reward and is based on the idea of operant conditioning.",
+   "options": [
+    "Incentive",
+    "Arousal",
+    "Goal setting",
+    "None of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p54",
+   "n": 54,
+   "q": "The Yerkes Dodson law gives ___ relationship between arousal and performance.",
+   "options": [
+    "inverted U shaped",
+    "linear",
+    "no",
+    "parabolic"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p55",
+   "n": 55,
+   "q": "The expectancy theory is based on the assumption that ___.",
+   "options": [
+    "our behavior is based on making a conscious choice from a set of possible alternative behaviors",
+    "individuals are motivated to seek out stimulation when they have low levels of arousal, but will become bored and unmotivated when they become too highly aroused",
+    "biological needs produce unpleasant states of arousal which people seek to reduce",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p56",
+   "n": 56,
+   "q": "Valence, or the perceived value of reward, would have ___ value if one wants to avoid that reward.",
+   "options": [
+    "one",
+    "zero",
+    "positive",
+    "negative"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p57",
+   "n": 57,
+   "q": "Which of the following is not true about Maslow's need hierarchy?",
+   "options": [
+    "Needs lower down in the hierarchy must be satisfied before individuals can attend to higher needs",
+    "Safety needs lie at the bottom of the pyramid",
+    "Deficiency needs are concerned with basic survival",
+    "Growth needs are more psychological needs",
+    "Motivation is seen as being not just concerned with tension reduction and survival but also with human growth and development"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p58",
+   "n": 58,
+   "q": "Self-Determination Theory differentiates between ___ and ___ motivation types.",
+   "options": [
+    "autonomous and controlled",
+    "autonomous and intrinsic",
+    "controlled and extrinsic",
+    "introjected and extrinsic",
+    "introjected and intrinsic"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p59",
+   "n": 59,
+   "q": "In achievement motivation, the motive to avoid failure often consists of ___.",
+   "options": [
+    "worries about the consequences of failing",
+    "self-criticism",
+    "accelerated heart rate",
+    "all of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p60",
+   "n": 60,
+   "q": "Daniel Goleman's work in emotional intelligence (EI) has outlined ___ main areas of this intelligence.",
+   "options": [
+    "three",
+    "four",
+    "five",
+    "six"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p61",
+   "n": 61,
+   "q": "Which of the following statements is not true?",
+   "options": [
+    "Experts even suggested that emotional intelligence/ EQ, is more important than IQ/academic intelligence",
+    "An individual with high EI is not only aware of what emotions they are feeling but can put words to their feelings",
+    "Studies show that EI does not impact aspects of one's life like academic performance",
+    "Peter Salovey and John Mayer were the first to develop a psychological theory of emotional intelligence."
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p62",
+   "n": 62,
+   "q": "___ refers to how tuned to the emotions of others a person is.",
+   "options": [
+    "Empathy",
+    "Motivation",
+    "Emotional literacy",
+    "Self regulation"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p63",
+   "n": 63,
+   "q": "The following are advantages of developing emotional intelligence, except___",
+   "options": [
+    "Being able to accept criticism and responsibility",
+    "Knowing why we do the things we do",
+    "Being able to say no when we need to",
+    "Being able to hide our feelings from others"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p64",
+   "n": 64,
+   "q": "The Pyramid of Emotional Intelligence is also known as the ___ layer model.",
+   "options": [
+    "nine",
+    "five",
+    "seven",
+    "eleven"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p65",
+   "n": 65,
+   "q": "EI can be developed at any stage of life through self-effort & training.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p66",
+   "n": 66,
+   "q": "When someone engages in___, they can regulate their emotions to ensure that others feel more comfortable.",
+   "options": [
+    "emotional exhaustion",
+    "emotional literacy",
+    "empathy",
+    "emotional labor"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p67",
+   "n": 67,
+   "q": "The management of emotions is ___.",
+   "options": [
+    "a private act",
+    "influenced by cultural and social norms",
+    "done by actively shaping and directing feelings",
+    "all of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p68",
+   "n": 68,
+   "q": "___ is seen when workers change their outward emotional expressions but do not attempt to feel the emotions that they are displaying.",
+   "options": [
+    "deep acting",
+    "emotional contagion",
+    "surface acting",
+    "emotional literacy"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p69",
+   "n": 69,
+   "q": "The concept of emotional contagion can be linked to biological basis of ___.",
+   "options": [
+    "emotional neurons",
+    "mirror neurons",
+    "contagious neurons",
+    "None of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p70",
+   "n": 70,
+   "q": "___ defined learning as 'a change in human disposition or capacity that persists over a period of time and is not simply ascribable to processes of growth.",
+   "options": [
+    "Bloom",
+    "Dewey",
+    "Gagne",
+    "Kolb"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p71",
+   "n": 71,
+   "q": "The principles of contiguity (how close in time two events must be for a bond to be formed) and reinforcement (any means of increasing the likelihood that an event will be repeated) are central to explaining the learning process in the ___ orientation to learning.",
+   "options": [
+    "Cognitive",
+    "Humanistic",
+    "Social and social-constructivist",
+    "Behaviorist"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p72",
+   "n": 72,
+   "q": "Which of the following is not true about humanistic orientations to learning?",
+   "options": [
+    "It has a quality of personal involvement",
+    "It is self-initiated",
+    "It is pervasive",
+    "The locus of evaluation resides definitely outside the learner"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p73",
+   "n": 73,
+   "q": "The concept of situated learning is studied under which school of thought of learning theories?",
+   "options": [
+    "behaviorist",
+    "cognitive",
+    "humanistic",
+    "social"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p74",
+   "n": 74,
+   "q": "Which of the following is not one of the individual variable factors affecting learning?",
+   "options": [
+    "ergonomics",
+    "interest",
+    "endurance",
+    "ego",
+    "perception"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p75",
+   "n": 75,
+   "q": "___ learners prefer maps, graphs, diagrams and charts to learn.",
+   "options": [
+    "Visual",
+    "Solitary",
+    "Kinesthetic",
+    "Auditory"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p76",
+   "n": 76,
+   "q": "___ learners search for connections, causes, patterns, and results in their learning.",
+   "options": [
+    "linguistic",
+    "kinesthetic",
+    "visual",
+    "logical"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p77",
+   "n": 77,
+   "q": "Effective instruction is ___.",
+   "options": [
+    "interactive, generative and dynamic",
+    "designed to accommodate student learning needs and styles",
+    "guided by general pedagogical approaches",
+    "eclectic",
+    "all of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p78",
+   "n": 78,
+   "q": "___ role of the trainer consists of transmitting information about a subject to the audience.",
+   "options": [
+    "expert",
+    "instructor",
+    "facilitator",
+    "co-learner"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p79",
+   "n": 79,
+   "q": "Which of the following is not a component of the ADDIE model?",
+   "options": [
+    "analysis",
+    "integration",
+    "development",
+    "evaluation"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p80",
+   "n": 80,
+   "q": "The word 'pedagogy' has been derived from the Greek word “pedagogue” which stands for___.",
+   "options": [
+    "the science of learning",
+    "the art of observing",
+    "the art of teaching children",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p81",
+   "n": 81,
+   "q": "Which of the following statements is not true about pedagogy?",
+   "options": [
+    "It assists both students and teachers in gaining an in-depth understanding of fundamental material.",
+    "It is about suppressing responses from learners",
+    "It enhances the student-teacher relationship",
+    "It enables teachers to influence student learning with an intention to capture the attention of students"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p82",
+   "n": 82,
+   "q": "Which of the following is not a pedagogical approach in teaching?",
+   "options": [
+    "reflective",
+    "collective",
+    "collaborative",
+    "integrative"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p83",
+   "n": 83,
+   "q": "___ is a form of active learning that starts by posing questions, problems or scenarios rather than simply presenting established facts or portraying a smooth path to knowledge.",
+   "options": [
+    "constructivist learning",
+    "passive learning",
+    "inquiry-based learning",
+    "metalearning"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p84",
+   "n": 84,
+   "q": "Which of the following is a primary role of the instructor in experiential learning?",
+   "options": [
+    "posing problems",
+    "providing solutions",
+    "blurring boundaries",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p85",
+   "n": 85,
+   "q": "The ''what is important?\" stage of the experiential learning process refers to the ___ stage",
+   "options": [
+    "processing",
+    "generalizing",
+    "application",
+    "reflecting"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p86",
+   "n": 86,
+   "q": "The ___ learning style as given by Kolb suggests that these individuals prefer to look at things from multiple perspectives and prefer to watch rather than do.",
+   "options": [
+    "Assimilating",
+    "Accommodating",
+    "Converging",
+    "Diverging"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p87",
+   "n": 87,
+   "q": "The following factors influence preferred learning styles except___",
+   "options": [
+    "career choice",
+    "personality",
+    "educational specialization",
+    "genes"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p88",
+   "n": 88,
+   "q": "Integrative learning often involves three steps. Which of the following is not one of them?",
+   "options": [
+    "collaboration",
+    "integrative enquiry",
+    "application and transfer",
+    "reflection"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p89",
+   "n": 89,
+   "q": "In transformative learning, ___ includes a student's habit of the mind, as well as a personal point of view.",
+   "options": [
+    "intentional content",
+    "frame of reference",
+    "frame of context",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p90",
+   "n": 90,
+   "q": "E-learning implies ___ learning",
+   "options": [
+    "mentor assisted",
+    "teacher enhanced",
+    "computer enhanced",
+    "electricity enhanced"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p91",
+   "n": 91,
+   "q": "___ type of e-learning is highly interactive, which includes graphics, video, audio and games too.",
+   "options": [
+    "text driven",
+    "simulation",
+    "interactive",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p92",
+   "n": 92,
+   "q": "Which of the following is not true about e-learning?",
+   "options": [
+    "one can have access to the content any number of times",
+    "it helps in developing new policies",
+    "it saves time for the students, they don't need to travel to the institution",
+    "it is targeted to cater to the needs of students specifically"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p93",
+   "n": 93,
+   "q": "As learning depends on the learner's prior experience, and no two learners will have the same experiences, new information will be dealt with in different ways by different learners. This statement means that learning is ___.",
+   "options": [
+    "goal-oriented",
+    "dependent on self-awareness",
+    "social",
+    "idiosyncratic"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p94",
+   "n": 94,
+   "q": "Which of the following is a way of facilitating the social dimension to learning?",
+   "options": [
+    "e-mails",
+    "online discussions",
+    "virtual communities",
+    "all of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p95",
+   "n": 95,
+   "q": "We can say that when we're good at something after practice, it's usually because ___",
+   "options": [
+    "our brain has become automated",
+    "our brain has released better chemicals",
+    "our brain has made stronger connections with this information",
+    "our brain has prioritized this information over others"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p96",
+   "n": 96,
+   "q": "Learners may multitask when engaging in an online course, which could be resulting in ___.",
+   "options": [
+    "hyperfocus",
+    "better retrieval",
+    "shorter attention spans",
+    "None of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p97",
+   "n": 97,
+   "q": "The cognitive load theory suggests that when we overload our___, we are unable to acquire and process new information.",
+   "options": [
+    "sensory memory",
+    "encoding",
+    "retrieval",
+    "working memory"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p98",
+   "n": 98,
+   "q": "There are five critical aspects of psychology which are needed to guarantee the implementation of successful eLearning. Which of the following is not one of them?",
+   "options": [
+    "evolution",
+    "self-discipline",
+    "stress",
+    "emotion"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p99",
+   "n": 99,
+   "q": "___ is a learning tool, because the explicit navigation of the topic and association types might enable meaningful learning and it helps to reduce the cognitive loads caused by Elearning content and constant attention.",
+   "options": [
+    "topic map",
+    "schema",
+    "prototype",
+    "instructional map"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p100",
+   "n": 100,
+   "q": "The Readiness Model for New Normal in Education designed by many educational institutions caters to the following components except ___.",
+   "options": [
+    "parent readiness",
+    "learner readiness",
+    "society readiness",
+    "teacher readiness"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p101",
+   "n": 101,
+   "q": "In 2018, Global Education and Skills Forum noted that the 'future' teacher would need some skills to thrive in the 21st century. Which of the following is not one of them?",
+   "options": [
+    "Being a facilitator",
+    "Internal focus",
+    "Strong social skills",
+    "Data analysis"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p102",
+   "n": 102,
+   "q": "Which of the following impacts student learning?",
+   "options": [
+    "Their perception about their intelligence and ability",
+    "Prior knowledge",
+    "Their context",
+    "All of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p103",
+   "n": 103,
+   "q": "Which of the following statements is not true?",
+   "options": [
+    "Techniques linked to self-control contribute to more effective learning if taught and applied correctly",
+    "Student creativity can be encouraged.",
+    "Clear, explanatory and timely feedback to students is important for learning",
+    "Students tend to enjoy learning and have better outcomes when their motivation is more extrinsic than intrinsic"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p104",
+   "n": 104,
+   "q": "Both formative and summative assessment are important and useful, provided they are applied and interpreted appropriately.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p105",
+   "n": 105,
+   "q": "Individual differences are the unique ways each human being differs from another. It can be handled through using different techniques. Which of the following is not one of them?",
+   "options": [
+    "observation",
+    "sociograms",
+    "rating scales",
+    "ignorance"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p106",
+   "n": 106,
+   "q": "Clapping is an example of ___ reward.",
+   "options": [
+    "tangible",
+    "financial",
+    "social",
+    "none of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p107",
+   "n": 107,
+   "q": "___ is the process of judging the value or worth of an individual's achievements or characteristics.",
+   "options": [
+    "Goal-setting",
+    "Classroom conduct",
+    "Formation",
+    "Evaluation"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p108",
+   "n": 108,
+   "q": "___ refers to the frequent, interactive assessment of student progress to identify learning needs and shape teaching.",
+   "options": [
+    "Formative assessment",
+    "Summative assessment",
+    "Collective assessment",
+    "None of the given"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p109",
+   "n": 109,
+   "q": "“That is an intelligent response, well done” is an example of a ___ level feedback.",
+   "options": [
+    "Task-level",
+    "Process-level",
+    "Facilitator-level",
+    "Personal-level"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p110",
+   "n": 110,
+   "q": "___ refers to a complex set of mental abilities underlying social stimulus perception, processing, interpretation, and response.",
+   "options": [
+    "social schema",
+    "emotional cognition",
+    "social cognition",
+    "emotional schema"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p111",
+   "n": 111,
+   "q": "Piaget's conception of ___ views information inconsistent with an individual's cognitive structures as an initiator for assimilation and accommodation processes.",
+   "options": [
+    "assimilation and accommodation schema",
+    "cognitive determinism",
+    "reciprocal dynamism",
+    "cognitive conflict"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p112",
+   "n": 112,
+   "q": "During the earliest stages of development, children see the world from their own perspective and struggle to think about how other people may view the world. This highlights that initially, children are ___.",
+   "options": [
+    "egocentric",
+    "idiosyncratic",
+    "egoistic",
+    "egomaniac"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p113",
+   "n": 113,
+   "q": "Which of the following is false regarding social cognition?",
+   "options": [
+    "It develops in childhood and adolescence",
+    "When looking at a social situation, any two people may have wildly different interpretations.",
+    "It includes complex abilities like theory of mind",
+    "There are no cultural differences in social cognition"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p114",
+   "n": 114,
+   "q": "Social processes influence how information is selected, organized, integrated, and retrieved. This highlights the ___ hypothesis.",
+   "options": [
+    "social cue",
+    "cognitive influence",
+    "schema influence",
+    "social mediation"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p115",
+   "n": 115,
+   "q": "The social cognitive theory is developed by ___.",
+   "options": [
+    "Watson",
+    "Piaget",
+    "Bandura",
+    "Freud"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p116",
+   "n": 116,
+   "q": "___ refers to the internal or external responses to a person's behavior that affect the likelihood of continuing or discontinuing the behavior.",
+   "options": [
+    "modeling",
+    "schemas",
+    "awards",
+    "reinforcements"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p117",
+   "n": 117,
+   "q": "Observational learning occurs through the sequence of ___ number of processes. One of those is attentional processes.",
+   "options": [
+    "four",
+    "five",
+    "six",
+    "seven"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p118",
+   "n": 118,
+   "q": "The ___ model of observational learning involves an actual individual demonstrating or acting out a behavior.",
+   "options": [
+    "live",
+    "symbolic",
+    "verbal instructional",
+    "contextual"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  },
+  {
+   "id": "p119",
+   "n": 119,
+   "q": "___ suggests that our behavior, personal factors, and environmental factors all influence each other.",
+   "options": [
+    "environmental dynamism",
+    "reciprocal determinism",
+    "collective determinism",
+    "reciprocal dynamism"
+   ],
+   "answer": null,
+   "picked": null,
+   "status": "unmarked"
+  }
+ ]
+}

@@ -128,7 +128,10 @@ button, input, select { font: inherit; color: inherit; }
 .week-chip:hover { background: var(--surface); }
 .week-chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .week-chip[aria-pressed="true"] .wk { color: var(--paper); }
-.week-chip.all { grid-template-columns: 1fr; font-weight: 600; color: var(--ink); }
+.week-chip.all, .week-chip.extra { grid-template-columns: 1fr; font-weight: 600; color: var(--ink); }
+.week-chip.extra { margin-top: 6px; }
+.week-chip.extra[aria-pressed="true"] { color: var(--paper); }
+.section-note { margin: 6px 0 0; color: var(--slate); font-size: 0.9375rem; }
 .week-chip.all[aria-pressed="true"] { color: var(--paper); }
 
 .bank-results { min-width: 0; }
@@ -296,6 +299,7 @@ kbd { font: 600 0.75rem/1 var(--sans); border: 1px solid var(--rule); border-bot
   .week-chip { display: inline-flex; width: auto; border: 1px solid var(--rule); border-radius: 999px; padding: 5px 12px; background: var(--surface); }
   .week-chip .wt { display: none; }
   .week-chip .wk::before { content: "Week "; font-weight: 600; }
+  .week-chip.extra { margin-top: 0; }
   html { scroll-padding-top: 180px; }
 }
 @media (max-width: 560px) {

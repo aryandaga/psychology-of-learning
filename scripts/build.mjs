@@ -1,11 +1,12 @@
-// Build: data/questions.json -> index.html (prerendered Bank), js/data.js, sitemap.xml
+// Build: data/questions.json + data/practice.json -> index.html (prerendered Bank), js/data.js, sitemap.xml
 import { readFileSync, writeFileSync } from "node:fs";
 
 const root = new URL("../", import.meta.url);
 const SITE_URL = "https://aryandaga.github.io/psychology-of-learning/";
-const LETTERS = "ABCD";
+const LETTERS = "ABCDE";
 
 const { course, weeks, questions } = JSON.parse(readFileSync(new URL("data/questions.json", root), "utf8"));
+const practice = JSON.parse(readFileSync(new URL("data/practice.json", root), "utf8")).questions;
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const TICK = `<svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>`;
@@ -22,7 +23,8 @@ function questionHTML(q) {
     })
     .join("");
   const note = NOTES[q.id] ? `<p class="q-note">${esc(NOTES[q.id])}</p>` : "";
-  return `<article class="q" id="${q.id}" data-week="${q.week}"><span class="q-num" aria-hidden="true">${q.n}</span><div class="q-body"><h3 class="q-text"><span class="visually-hidden">Question ${q.n}. </span>${esc(q.q)}</h3><ol class="opts" type="A">${opts}</ol>${note}</div></article>`;
+  const pending = q.answer == null ? `<p class="q-note">Answer not confirmed yet.</p>` : "";
+  return `<article class="q" id="${q.id}" data-week="${q.week ?? "vercel"}"><span class="q-num" aria-hidden="true">${q.n}</span><div class="q-body"><h3 class="q-text"><span class="visually-hidden">Question ${q.n}. </span>${esc(q.q)}</h3><ol class="opts" type="A">${opts}</ol>${note}${pending}</div></article>`;
 }
 
 const bank = weeks
@@ -35,8 +37,15 @@ const bank = weeks
   })
   .join("\n");
 
+const marked = practice.filter((q) => q.answer != null).length;
+const vercelSection = `        <section class="week-section" id="week-vercel" data-week="vercel" aria-labelledby="week-vercel-title">
+          <header><h2 id="week-vercel-title">NPTEL Vercel questions</h2><p class="section-note">${practice.length} questions from the NPTEL Vercel practice test. Answers are highlighted for the ${marked} with confirmed answers.</p></header>
+          ${practice.map(questionHTML).join("\n          ")}
+        </section>`;
+
 const chips = weeks
   .map((w) => `          <li><button class="week-chip" type="button" data-week="${w.week}" aria-pressed="false"><span class="wk">${w.week}</span><span class="wt">${esc(w.title)}</span></button></li>`)
+  .concat(`          <li><button class="week-chip extra" type="button" data-week="vercel" aria-pressed="false">NPTEL Vercel</button></li>`)
   .join("\n");
 
 const jsonld = JSON.stringify({
@@ -59,7 +68,7 @@ const html = readFileSync(new URL("index.template.html", root), "utf8")
   .replaceAll("{{SITE_URL}}", SITE_URL)
   .replace("{{JSONLD}}", jsonld)
   .replace("{{WEEK_CHIPS}}", chips)
-  .replace("{{BANK}}", bank);
+  .replace("{{BANK}}", `${bank}\n${vercelSection}`);
 
 writeFileSync(new URL("index.html", root), html);
 writeFileSync(
