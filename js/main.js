@@ -1,11 +1,11 @@
-import { QUESTIONS, WEEKS } from "./data.js";
+import { QUESTIONS, PRACTICE, WEEKS } from "./data.js";
 import { initBank } from "./bank.js";
 import { initQuiz } from "./quiz-ui.js";
 import { startRouter } from "./router.js";
 import { load, save } from "./storage.js";
 
 initBank(document);
-const quiz = initQuiz({ root: document.getElementById("quiz-root"), questions: QUESTIONS, weeks: WEEKS });
+const quiz = initQuiz({ root: document.getElementById("quiz-root"), questions: QUESTIONS.concat(PRACTICE), weeks: WEEKS });
 
 let view = null;
 startRouter((next) => {

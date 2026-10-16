@@ -157,6 +157,7 @@ button, input, select { font: inherit; color: inherit; }
 .opts li.correct .letter { color: var(--ink); }
 .opts .tick { display: inline-block; width: 0.95em; height: 0.95em; vertical-align: -0.12em; margin-left: 0.35em; }
 .q-note { margin: 10px 0 0; font-size: 0.875rem; color: var(--slate); }
+.q-note-missed { color: var(--wrong); }
 .empty-state { padding: 48px 0; color: var(--slate); }
 .empty-state button { margin-top: 12px; }
 
@@ -190,6 +191,7 @@ fieldset { border: 0; margin: 0 0 28px; padding: 0; min-width: 0; }
 legend { font-weight: 700; margin-bottom: 10px; padding: 0; }
 .choice-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .choice-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.group-label { margin: 16px 0 8px; color: var(--slate); font-size: 0.875rem; font-weight: 600; }
 .choice { position: relative; }
 .choice input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
 .choice label {

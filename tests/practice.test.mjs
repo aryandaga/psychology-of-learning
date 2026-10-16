@@ -21,5 +21,12 @@ test("screenshot marks for Q1–39 are applied", () => {
   assert.equal(byN[5].options[byN[5].answer], "Wilhelm Wundt");
   assert.equal(byN[24].options[byN[24].answer], "Howard Gardner");
   assert.equal(byN[39].options[byN[39].answer], "physical effort");
-  assert.equal(questions.filter((q) => q.answer !== null).length, 39);
+  assert.equal(questions.filter((q) => q.answerSource === "test").length, 39);
+  assert.equal(questions.filter((q) => q.status === "wrong").length, 13);
+});
+
+test("Q40–119 carry Claude's answers, clearly labelled", () => {
+  const rest = questions.filter((q) => q.n >= 40);
+  assert.equal(rest.length, 80);
+  assert.ok(rest.every((q) => q.answer !== null && q.answerSource === "claude" && q.status === "unknown"));
 });

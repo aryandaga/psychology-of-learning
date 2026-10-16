@@ -32,8 +32,11 @@ const out = questions.map(({ n, q, options }) => {
   };
   const answer = mk ? find(mk.answer) : null;
   const picked = mk && "picked" in mk ? find(mk.picked) : null;
-  const status = !mk ? "unmarked" : picked === null ? "right" : "wrong";
-  return { id: `p${n}`, n, q: tidy(q), options: options.map(tidy), answer, picked, status };
+  const fromClaude = mk?.source === "claude";
+  // status = how you did on the practice test (only known where the screenshot showed it)
+  const status = !mk || fromClaude ? "unknown" : picked === null ? "right" : "wrong";
+  const answerSource = !mk ? null : fromClaude ? "claude" : "test";
+  return { id: `p${n}`, n, week: 0, q: tidy(q), options: options.map(tidy), answer, answerSource, lowConfidence: mk?.confidence === "low", picked, status };
 });
 
 if (problems.length) {
@@ -45,4 +48,5 @@ writeFileSync(
   new URL("data/practice.json", root),
   JSON.stringify({ source: "NPTEL Vercel practice test (119 questions; answers from the answer-review screenshot)", questions: out }, null, 1)
 );
-console.log(`${out.length} practice questions: ${count("right")} right, ${count("wrong")} wrong, ${count("unmarked")} not yet marked.`);
+const bySource = (src) => out.filter((x) => x.answerSource === src).length;
+console.log(`${out.length} NPTEL Vercel questions: ${bySource("test")} answers from the test key, ${bySource("claude")} from Claude; you got ${count("wrong")} known wrong.`);

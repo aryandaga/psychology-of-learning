@@ -2,7 +2,7 @@
 import { buildSet, createSession, answer, score, restore, indexById } from "./quiz-engine.js";
 import { load, save, remove, persistent } from "./storage.js";
 
-const LETTERS = "ABCD";
+const LETTERS = "ABCDE";
 const SIZES = [10, 20, 50, 120];
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const TICK = `<svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>`;
@@ -43,7 +43,11 @@ export function initQuiz({ root, questions, weeks }) {
   }
 
   /* ---------- labels ---------- */
+  const vercelMissed = questions.filter((q) => q.week === 0 && q.status === "wrong").length;
+  const weekName = (w) => (Number(w) === 0 ? "NPTEL Vercel" : `Week ${w}`);
   function sourceLabel(p) {
+    if (p.source === "vercel") return "NPTEL Vercel, all 119";
+    if (p.source === "vercel-missed") return "NPTEL Vercel mistakes";
     if (p.source === "order") return "All 120 in order";
     if (p.source === "random") return `Random ${p.count}`;
     const ws = p.weeks.slice().sort((a, b) => a - b);
@@ -51,6 +55,8 @@ export function initQuiz({ root, questions, weeks }) {
   }
   const modeLabel = (m) => (m === "exam" ? "exam" : "practice");
   function plannedCount(p) {
+    if (p.source === "vercel") return questions.filter((q) => q.week === 0).length;
+    if (p.source === "vercel-missed") return vercelMissed;
     if (p.source === "order") return 120;
     if (p.source === "random") return p.count;
     return p.weeks.length * 10;
@@ -79,6 +85,11 @@ export function initQuiz({ root, questions, weeks }) {
             ${choice("source", "random", "Random", "A mix from all 12 weeks", prefs.source)}
             ${choice("source", "order", "All 120 in order", "Week 1 to Week 12", prefs.source)}
             ${choice("source", "weeks", "By week", "Choose one or more weeks", prefs.source)}
+          </div>
+          <p class="group-label">NPTEL Vercel practice test</p>
+          <div class="choice-grid two">
+            ${choice("source", "vercel", "All 119 in order", "Q40–119 use Claude’s answers", prefs.source)}
+            ${choice("source", "vercel-missed", `My mistakes (${vercelMissed})`, "The ones you got wrong in Q1–39", prefs.source)}
           </div>
           <div class="sub-options" data-for="random" ${prefs.source === "random" ? "" : "hidden"}>
             <div class="pill-row" role="group" aria-label="How many questions">
@@ -196,6 +207,7 @@ export function initQuiz({ root, questions, weeks }) {
       feedback = chosen === q.answer
         ? `<p class="feedback right" role="status">Correct.</p>`
         : `<p class="feedback wrong" role="status">Not quite — the answer is ${LETTERS[q.answer]}, ${esc(q.options[q.answer])}.</p>`;
+      if (q.answerSource === "claude") feedback += `<p class="q-note">Claude’s answer, not confirmed${q.lowConfidence ? ". Low confidence" : ""}.</p>`;
     } else {
       feedback = `<p class="feedback" role="status"></p>`;
     }
@@ -214,7 +226,7 @@ export function initQuiz({ root, questions, weeks }) {
         <button class="btn-link quit" data-act="quit" type="button">Exit</button>
       </div>
       <div class="question-card">
-        <p class="q-meta">Week ${q.week} · ${esc(weekTitle[q.week])} · Question ${q.n}</p>
+        <p class="q-meta">${q.week === 0 ? `NPTEL Vercel · Question ${q.n}` : `Week ${q.week} · ${esc(weekTitle[q.week])} · Question ${q.n}`}</p>
         <h2 class="q-text" id="q-text">${esc(q.q)}</h2>
         <div class="answers" role="group" aria-labelledby="q-text">${answersHTML}</div>
         ${feedback}
@@ -301,7 +313,7 @@ export function initQuiz({ root, questions, weeks }) {
       .map((w) => {
         const { correct, total } = r.byWeek[w];
         const cls = correct === total ? "week-cell full" : correct / total < 0.6 ? "week-cell weak" : "week-cell";
-        return `<div class="${cls}"><b>Week ${w}</b><span>${correct}/${total}</span></div>`;
+        return `<div class="${cls}"><b>${weekName(w)}</b><span>${correct}/${total}</span></div>`;
       })
       .join("");
     const missed = r.missed
@@ -313,7 +325,7 @@ export function initQuiz({ root, questions, weeks }) {
             return `<li${cls ? ` class="${cls}"` : ""}><span class="letter">${LETTERS[i]}</span><span><span class="opt-text">${esc(o)}</span>${i === chosen ? '<span class="visually-hidden"> (your answer)</span>' : ""}${i === q.answer ? '<span class="visually-hidden"> (correct answer)</span>' : ""}</span></li>`;
           })
           .join("");
-        return `<article class="q q-missed"><div class="q-body"><p class="q-meta">Week ${q.week}, question ${q.n}</p><h3 class="q-text">${esc(q.q)}</h3><ol class="opts">${opts}</ol>${chosen === null ? '<p class="unanswered">Not answered</p>' : ""}</div></article>`;
+        return `<article class="q q-missed"><div class="q-body"><p class="q-meta">${weekName(q.week)}, question ${q.n}</p><h3 class="q-text">${esc(q.q)}</h3><ol class="opts">${opts}</ol>${chosen === null ? '<p class="unanswered">Not answered</p>' : ""}</div></article>`;
       })
       .join("");
 
@@ -349,7 +361,7 @@ export function initQuiz({ root, questions, weeks }) {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.target.closest("input, textarea, select")) return;
     const k = e.key.toLowerCase();
-    const idx = "1234".indexOf(k) >= 0 ? "1234".indexOf(k) : "abcd".indexOf(k);
+    const idx = "12345".indexOf(k) >= 0 ? "12345".indexOf(k) : "abcde".indexOf(k);
     if (idx >= 0 && k.length === 1) {
       e.preventDefault();
       choose(idx);

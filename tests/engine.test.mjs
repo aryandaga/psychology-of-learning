@@ -80,3 +80,32 @@ test("restore drops unknown ids and rejects corrupt state", () => {
   assert.equal(restore({ ids: "nope" }, byId), null);
   assert.equal(restore({ ids: ["w99q1"], answers: {}, index: 0, mode: "practice" }, byId), null);
 });
+
+// ---- NPTEL Vercel set (week 0) ----
+const { questions: practice } = JSON.parse(readFileSync(new URL("../data/practice.json", import.meta.url), "utf8"));
+const all = questions.concat(practice);
+
+test("assignment sources ignore the Vercel set", () => {
+  assert.equal(buildSet(all, { source: "order" }).length, 120);
+  assert.ok(buildSet(all, { source: "random", count: 120 }, seededRng(3)).every((q) => q.week >= 1));
+});
+
+test("vercel source returns all 119 in order", () => {
+  const set = buildSet(all, { source: "vercel" });
+  assert.equal(set.length, 119);
+  assert.equal(set[0].id, "p1");
+  assert.equal(set[118].id, "p119");
+});
+
+test("vercel-missed returns only the questions you got wrong", () => {
+  const set = buildSet(all, { source: "vercel-missed" });
+  assert.equal(set.length, 13);
+  assert.ok(set.every((q) => q.status === "wrong"));
+});
+
+test("5-option questions accept E and reject a 6th option", () => {
+  const p1 = practice[0];
+  const s = createSession([p1], { mode: "practice" });
+  assert.equal(answer(s, p1.id, 4, p1), true);
+  assert.throws(() => answer(s, p1.id, 5, p1), RangeError);
+});

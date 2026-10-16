@@ -32,12 +32,15 @@ const inOrder = (a, b) => a.week - b.week || a.n - b.n;
 
 /**
  * Pick the questions for a quiz.
- * @param {"random"|"order"|"weeks"} opts.source
+ * @param {"random"|"order"|"weeks"|"vercel"|"vercel-missed"} opts.source
  * @param {number} [opts.count]   random only
  * @param {number[]} [opts.weeks] weeks only
  */
 export function buildSet(questions, { source, count = 10, weeks = [] }, rng = Math.random) {
-  const sorted = questions.slice().sort(inOrder);
+  const sorted = questions.filter((q) => q.week >= 1).sort(inOrder); // the 120 assignment questions
+  const vercel = questions.filter((q) => q.week === 0).sort((a, b) => a.n - b.n); // NPTEL Vercel set
+  if (source === "vercel") return vercel;
+  if (source === "vercel-missed") return vercel.filter((q) => q.status === "wrong");
   if (source === "order") return sorted;
   if (source === "weeks") {
     const chosen = new Set(weeks.map(Number));
