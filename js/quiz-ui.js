@@ -313,7 +313,7 @@ export function initQuiz({ root, questions, weeks }) {
             return `<li${cls ? ` class="${cls}"` : ""}><span class="letter">${LETTERS[i]}</span><span><span class="opt-text">${esc(o)}</span>${i === chosen ? '<span class="visually-hidden"> (your answer)</span>' : ""}${i === q.answer ? '<span class="visually-hidden"> (correct answer)</span>' : ""}</span></li>`;
           })
           .join("");
-        return `<article class="q"><span class="q-num" aria-hidden="true">${q.n}</span><div class="q-body"><p class="q-meta">Week ${q.week}</p><h3 class="q-text">${esc(q.q)}</h3><ol class="opts">${opts}</ol>${chosen === null ? '<p class="unanswered">Not answered</p>' : ""}</div></article>`;
+        return `<article class="q q-missed"><div class="q-body"><p class="q-meta">Week ${q.week}, question ${q.n}</p><h3 class="q-text">${esc(q.q)}</h3><ol class="opts">${opts}</ol>${chosen === null ? '<p class="unanswered">Not answered</p>' : ""}</div></article>`;
       })
       .join("");
 
